@@ -1,209 +1,211 @@
-body{
-    background-image: url(../images/footer_lodyas.png);
-    margin: auto;
+body {
+  background-image: url(../images/footer_lodyas.png);
+  margin: auto;
 }
-.header{
-    background-color: whitesmoke;
-    padding: 15px 0px 0px 0px;
-    overflow: auto;
-
+.header {
+  background-color: whitesmoke;
+  padding: 15px 0px 0px 0px;
+  overflow: auto;
 }
-.header .content{
-    margin: auto;
-    width: 960px;
-    margin-bottom: 0px;
-    
+.header .content {
+  margin: auto;
+  width: 960px;
+  margin-bottom: 0px;
 }
-.header .content ul li{
-    list-style-type: none;
-    float: right;
-    margin: 0px 10px 20px 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: gray;
-
+.header .content ul li {
+  list-style-type: none;
+  float: right;
+  margin: 0px 10px 20px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
 }
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #4aaaa5;
-    color: white;
-    float: left;
-    padding: 10px 10px 5px 10px;
-    margin: 5px 5px 0px 0px;
-  
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #09789a;
+  color: white;
+  float: left;
+  padding: 10px 10px 5px 10px;
+  margin: 5px 5px 0px 0px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
-.middleSection{
+.middleSection {
+  width: 960px;
+  background-color: whitesmoke;
+  margin: 15px auto 15px auto;
+  overflow: auto;
+  border-radius: 4px;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #09789a;
+  padding: 15px;
+  margin: 0px 10px 0px 10px;
+}
+.text {
+  padding: 10px;
+  float: left;
+  overflow: auto;
+  margin: 0px 10px 0px 10px;
+  width: 730px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+img {
+  height: 150px;
+  float: left;
+  padding: 10px;
+  border-radius: 4px;
+}
+a:link {
+  text-decoration: none;
+  color: gray;
+}
+li a:hover {
+  color: lightgray;
+}
+a:visited {
+  color: darkgray;
+}
+.footer {
+  margin-bottom: 0px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  background-color: darkgray;
+  color: white;
+}
+.footer p {
+  width: 70px;
+  margin: 10px auto 10px auto;
+  font-family: "Raleway", sans-serif;
+}
+.form {
+  padding: 15px;
+}
+.name input {
+  width: 95%;
+  margin: 0;
+  padding: 5px;
+}
+.name label {
+  font-family: "Raleway", sans-serif;
+}
+.email label {
+  font-family: "Raleway", sans-serif;
+}
+.email input {
+  width: 95%;
+  padding: 5px;
+}
+#msg {
+  width: 95%;
+  margin: 0;
+  height: 250px;
+  padding: 5px;
+}
+.message label {
+  font-family: "Raleway", sans-serif;
+}
+.submit {
+  background: #09789a;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  float: left;
+  margin: 10px 10px 10px 0px;
+}
+.submit:hover {
+  background: #9ee5e1;
+}
+.column {
+  width: 250px;
+  margin: 30px;
+  float: left;
+}
+.box {
+  height: 250px;
+  margin: auto;
+}
+.box #Hangman {
+  position: relative;
+  width: 100%;
+}
+.box p {
+  position: absolute;
+  margin: 220px 0px 0px 10px;
+  background: #09789a;
+  padding: 15px;
+  color: white;
+  width: 220px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 2px;
+}
+.port-pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 14px;
+}
+@media only screen and (max-width: 980px) {
+  .middleSection {
     width: 960px;
     background-color: whitesmoke;
     margin: 15px auto 15px auto;
     overflow: auto;
-}
-h2{
-    font-family: 'Raleway', sans-serif;
-    color: #4aaaa5;
-    padding: 15px;
-    margin: 0px 10px 0px 10px;
-}
-.text{
-    padding: 10px;
-    float: left;
-    overflow: auto;
-    margin: 0px 10px 0px 10px;
-    width: 730px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: gray;
-}
-img{
-    height: 150px;
-    float: left;
-    padding: 10px;
-}
-a:link{
-    text-decoration: none;
-    color: gray;
-}
-li a:hover{
-    color: lightgray;
-}
-a:visited{
-    color: darkgray;
-}
-.footer{
-    margin-bottom: 0px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    background-color: darkgray;
-    color: white;
-}
-.footer p{
-    width: 70px;
-    margin: 10px auto 10px auto;
-    font-family: 'Raleway', sans-serif;
-}
-.form{
-    padding: 15px;
-}
-.name input{
-    width: 95%;
-    margin: 0;
-    padding: 5px;
-}
-.name label{
-    font-family: 'Raleway', sans-serif;
-}
-.email label{
-    font-family: 'Raleway', sans-serif;
-}
-.email input{
-    width: 95%;
-    padding: 5px;
-}
-#msg{
-    width: 95%;
-    margin: 0;
-    height: 250px;
-    padding: 5px;
-}
-.message label{
-    font-family: 'Raleway', sans-serif;
-}
-.submit{
-    background: #4aaaa5;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    padding: 10px;
-    float: left;
-    margin: 10px 10px 10px 0px;
-}
-.submit:hover{
-    background: #9ee5e1;
-}
-.column{
-    width: 250px;
-    margin: 30px;
-    float: left;
-}
-.box{
-    height: 250px;
-    margin: auto;
-}
-.box #Hangman{
-    position: relative;
-    width: 100%;
-}
-.box p{
-    position: absolute;
-    margin: 200px 0px 0px 10px;
-    background: #4aaaa5;
-    padding: 15px;
-    color: white;
-    width: 220px;
-    font-family: 'Raleway', sans-serif;
-}
-.port-pic{
-    height: 250px;
-    width: 250px;
-}
-@media only screen and (max-width: 980px) {
-    .middleSection{
-        width: 960px;
-        background-color: whitesmoke;
-        margin: 15px auto 15px auto;
-        overflow: auto;
-    }
   }
+}
 @media only screen and (max-width: 768px) {
-    .middleSection{
-        width: 760px;
-        background-color: whitesmoke;
-        margin: 15px auto 15px auto;
-        overflow: auto;
-    }
-    .middleSection p{
-        width: 500px;
-        float: left;
-    }
-    .middleSection .text{
-        width: 500px;
-    }
-    img{
-        padding-left: 25px;
-    }
-    .header .content{
-        margin: auto;
-        width: 760px;
-        margin-bottom: 0px;
-    }
-    .middleSection .label{
-        width: 220px;
-        margin-left: 25px;
-    }
+  .middleSection {
+    width: 760px;
+    background-color: whitesmoke;
+    margin: 15px auto 15px auto;
+    overflow: auto;
   }
-  @media only screen and (max-width: 640px) {
-    .middleSection{
-        width: 620px;
-        background-color: whitesmoke;
-        margin: 15px 10px;
-        overflow: auto;
-    }
-    .middleSection p{
-        width: 350px;
-        float: left;
-    }
-    .middleSection .text{
-        width: 350px;
-    }
-    img{
-        padding-left: 25px;
-    }
-    .header .content{
-        margin: auto;
-        width: 630px;
-        margin-bottom: 0px;
-    }
-    .footer p{
-        margin: auto;
-    }
+  .middleSection p {
+    width: 500px;
+    float: left;
   }
+  .middleSection .text {
+    width: 500px;
+  }
+  img {
+    padding-left: 25px;
+  }
+  .header .content {
+    margin: auto;
+    width: 760px;
+    margin-bottom: 0px;
+  }
+  .middleSection .label {
+    width: 220px;
+    margin-left: 25px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .middleSection {
+    width: 620px;
+    background-color: whitesmoke;
+    margin: 15px 10px;
+    overflow: auto;
+  }
+  .middleSection p {
+    width: 350px;
+    float: left;
+  }
+  .middleSection .text {
+    width: 350px;
+  }
+  img {
+    padding-left: 25px;
+  }
+  .header .content {
+    margin: auto;
+    width: 630px;
+    margin-bottom: 0px;
+  }
+  .footer p {
+    margin: auto;
+  }
+}
